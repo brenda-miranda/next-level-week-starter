@@ -14,7 +14,7 @@
     #page-home header a {
         position: absolute;
         padding-top: 120px;
-        left: 50%;
+        left: 69%;
         width: 100%;
         transform: translateX(-50%);
     }
@@ -63,6 +63,10 @@
         width: 145px;
         font-size: 15px;
         height: 160px;
+    }
+
+    .btn-create {
+        margin-left: 30px;
     }
 
 
