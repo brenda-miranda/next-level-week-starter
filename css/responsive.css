@@ -13,7 +13,7 @@
 
     #page-home header a {
         position: absolute;
-        padding-top: 1050px;
+        padding-top: 1200px;
         left: 65%;
         width: 100%;
         transform: translateX(-50%);
@@ -64,7 +64,7 @@
         font-size: 15px;
         height: 160px;
     }
-    
+
 
     form {
         width: 100%;
@@ -94,6 +94,9 @@
     #page-create-point header a {
         position: absolute;
         margin-top: 80px;
+    }
+    .btn-create {
+        margin-left: 25px;
     }
     
 }
