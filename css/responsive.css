@@ -14,7 +14,7 @@
     #page-home header a {
         position: absolute;
         padding-top: 1200px;
-        left: 65%;
+        left: 70%;
         width: 100%;
         transform: translateX(-50%);
     }
@@ -95,9 +95,7 @@
         position: absolute;
         margin-top: 80px;
     }
-    .btn-create {
-        margin-left: 25px;
-    }
+ 
     
 }
 
