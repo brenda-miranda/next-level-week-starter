@@ -55,13 +55,21 @@
 
     .items-grid {
         display: grid;
-        grid-template-columns: 1fr;  
+        grid-template-columns: 1fr 1fr; 
+        
     }
+
+    .items-grid li {
+        width: 145px;
+        font-size: 15px;
+        height: 160px;
+    }
+    
 
     form {
         width: 100%;
         padding: 32px;
-        background: none;
+        
     }
 
     form input,
@@ -82,7 +90,7 @@
     #page-create-point header  {
       align-items: flex-start;
     }
-    
+
     #page-create-point header a {
         position: absolute;
         margin-top: 80px;
