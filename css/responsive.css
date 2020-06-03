@@ -42,7 +42,54 @@
     #page-search .cards img{
         height: 250px;
     }
+
+
+    #page-create-point .field-group {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    form .field-group .field + .field {
+        margin-left: 0px;
+    }
+
+    .items-grid {
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+
+    form {
+        width: 100%;
+        padding: 32px;
+        background: none;
+    }
+
+    form input,
+    form select {
+    padding: 16px;
+    }
+
+    #body-create-point {
+        background: white;
+    }
+
+    #page-create-point {
+        width: 100%;
+        max-width: 900px;
+        margin: 0;
+    }
+
+    #page-create-point header  {
+      align-items: flex-start;
+    }
+    
+    #page-create-point header a {
+        position: absolute;
+        margin-top: 80px;
+    }
+    
 }
+
 /* -- */
 
 
