@@ -3,7 +3,7 @@
 */
 @media (max-width: 900px) {
     #page-home {
-        background-position: 70vh;
+        background-image: none;
     }
 
     #page-home .content {
@@ -13,8 +13,8 @@
 
     #page-home header a {
         position: absolute;
-        padding-top: 1200px;
-        left: 70%;
+        padding-top: 120px;
+        left: 50%;
         width: 100%;
         transform: translateX(-50%);
     }
@@ -95,7 +95,9 @@
         position: absolute;
         margin-top: 80px;
     }
- 
+    .btn-create {
+        margin-left: 25px;
+    }
     
 }
 
