@@ -1,9 +1,9 @@
 <h1 align="center">
-    Next Level Week by <img src="img/rocketseat.svg">
+    Next Level Week by <img src="public/img/rocketseat.svg">
     </h1>
   
   <p align="center">
-  <img width="250" src="img/logo-nlw.svg">
+  <img width="250" src="public/img/logo-nlw.svg">
 </p>
 
 _________
@@ -20,7 +20,7 @@ O Ecoleta é um projeto criado para gerenciar o processo de coleta de lixo nas c
  
 <h2 align="center"> 📷 Screenshot da home page do projeto: </h2>
 <p align="center">
-<img width="600" src="img/1.png">
+<img width="600" src="public/img/1.png">
 </p>
 
 _________
