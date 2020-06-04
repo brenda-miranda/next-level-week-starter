@@ -1,0 +1,187 @@
+/* * *
+* Page create point
+* Day 2
+* * * */
+
+/*
+* Header
+*/
+
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-create-point header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-create-point header a {
+    color: var(--dark-purple);
+    font-weight: bold;
+    display: flex;
+    
+}
+
+#page-create-point header a span {
+    width: 20px;
+    height: 23px;
+    margin-right: 16px;
+    display: flex;
+    background: url(../assets/arrow-left.svg);
+}
+/* -- */
+
+
+
+/*
+* Form
+*/
+form {
+    max-width: 730px;
+    margin: 80px auto;
+    padding: 64px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+form h1 {
+    font-size: 36px;
+}
+
+form fieldset {
+    margin-top: 65px;
+    border: 0;
+}
+
+form legend {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form legend h2 {
+    font-size: 24px;
+}
+
+form legend span {
+    font-size: 14px;
+    color: var(--dark-purple)
+}
+
+form .field {
+    margin-bottom: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+form .field-group {
+    display: flex;
+}
+
+form input,
+form select {
+    font-size: 16px;
+    border: 0;
+    padding: 16px 24px;
+    border-radius: 8px;
+    outline-color: var(--green);
+    background: #f0f0f5;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 30px;
+    transition: 400ms;
+    background: var(--green);
+}
+
+form button:hover {
+    background: #2fb86e;
+}
+/* -- */
+
+
+/*
+* Grids
+*/
+.items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.items-grid li {
+    height: 180px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 15px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #eafae6;
+}
+
+.items-grid li span {
+    color: var(--dark-purple);
+    font-weight: bold;
+    margin-top: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.items-grid li.selected {
+    border: 2px solid #34cd79;
+    background: #e1fadc;
+}
+
+.items-grid li img,
+.items-grid li span {
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
