@@ -3,15 +3,20 @@
 * Day 2
 * * * */
 
+body {
+    background: #fff;
+}
+
 body::after {
     content: "";
-    position: fixed;
-    top: 260px;
+    position: absolute;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
-    background: #fff;
+    background: #f0f0f5;
 }
 
 /*
@@ -93,3 +98,5 @@ main .card p {
     font-size: 16px;
     line-height: 26px;
 }
+
+
